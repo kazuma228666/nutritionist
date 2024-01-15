@@ -1,0 +1,117 @@
+* {
+    font-family: Urbanist;
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+    text-decoration: none;
+    color: black;
+}
+
+body {
+    background-color: #FAFDF2;
+}
+
+header {
+    width: 100%;
+    background-color: #1A3129;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 80px;
+}
+
+.content {
+    margin: 0 auto;
+    width: 1600px;
+}
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.header p {
+    font-size: 24px;
+    color: white;
+}
+
+.nav {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+
+.nav a {
+    font-size: 20px;
+    color: white;
+    cursor: pointer;
+}
+
+.nav .grn {
+    font-size: 20px;
+    color: #CBEA7B;
+    cursor: pointer;
+}
+
+.main {
+    font-size: 48px;
+}
+
+.def {
+    font-size: 20px;
+}
+
+.bl2 {
+    margin-top: 200px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.bl3 {
+    width: 1600px;
+    border: 2px solid #EEF8D3;
+    border-radius: 12px;
+    display: flex;
+    flex-direction: column;
+    overflow: hidden;
+}
+
+.b3s {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 80px;
+}
+
+.pt {
+    height: 100px;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    padding: 30px;
+}
+
+.pb {
+    background-color: #F6FBE9;
+    padding: 30px;
+    height: 100px;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+}
+
+.fl {
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    gap: 20px;
+}
+
+.nav img {
+    height: 60px;
+    width: 65px;
+}
